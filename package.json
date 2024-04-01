@@ -2,7 +2,7 @@
   "name": "studentapp3",
   "version": "1.0.0",
   "scripts": {
-    "build": "webpack --mode production",
+    "build": "react-scripts build",
     "build:dev": "webpack --mode development",
     "build:start": "cd dist && PORT=5000 npx serve",
     "start": "webpack serve --open --mode development",
